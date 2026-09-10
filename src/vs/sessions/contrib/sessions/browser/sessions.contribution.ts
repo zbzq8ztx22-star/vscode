@@ -25,6 +25,7 @@ import { SessionsMouseNavigationContribution } from './sessionsMouseNavigation.j
 import './sessionDetailsAction.js';
 import { SESSIONS_ARCHIVE_SESSION_CONFETTI_SETTING } from '../../../browser/sessionActionViewItem.js';
 import { SessionsWindowNotifier } from './sessionsWindowNotifier.js';
+import './sessionsCatchUp.js';
 
 const agentSessionsViewIcon = registerIcon('chat-sessions-icon', Codicon.commentDiscussionSparkle, localize('agentSessionsViewIcon', 'Icon for Agent Sessions View'));
 const AGENT_SESSIONS_VIEW_TITLE = localize2('agentSessions.view.label', "Sessions");
